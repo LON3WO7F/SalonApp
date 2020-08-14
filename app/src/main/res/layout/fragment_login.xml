@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        tools:context=".fragment.login"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="230dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <RelativeLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/email"
+                android:drawableLeft="@drawable/email_icon"
+                android:drawablePadding="25dp"
+                android:hint="Email Address"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:maxLines="1"
+                />
+
+            <EditText
+                android:inputType="textPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/password"
+                android:drawableLeft="@drawable/lock_icon"
+                android:drawablePadding="25dp"
+                android:hint="Password"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/email"
+                android:maxLines="1"
+                />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/login"
+        android:elevation="4dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="16sp"
+        android:text="Login"/>
+
+    </RelativeLayout>
+
+

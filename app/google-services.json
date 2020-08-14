@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "130632790106",
+    "firebase_url": "https://salon-270ef.firebaseio.com",
+    "project_id": "salon-270ef",
+    "storage_bucket": "salon-270ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130632790106:android:4ef9a6ddaff2603c312863",
+        "android_client_info": {
+          "package_name": "com.example.saloon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130632790106-3nataog1k4ttc9dtnrl8ncrg36jnn55n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTQT9V0sSoUGwcNa-r4kLESAp4cg8NBKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130632790106-3nataog1k4ttc9dtnrl8ncrg36jnn55n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -75,6 +75,17 @@
         android:textSize="16sp"
         android:text="Login"/>
 
-    </RelativeLayout>
+
+    <com.google.android.gms.common.SignInButton
+
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
 
 
